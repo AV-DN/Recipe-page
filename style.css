@@ -126,6 +126,7 @@ li::marker{
 @media (max-width: 375px) {
   .conteiner {
     padding: 1em;
+    height: 100vh;
   }
 
   .recipe {
@@ -133,7 +134,8 @@ li::marker{
   }
 
   .conteiner_header img{
-    width: 100%;
+    width: 100vw;
+    height: auto;
     object-fit: cover;
   }
 }
