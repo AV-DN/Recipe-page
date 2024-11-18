@@ -28,11 +28,12 @@ body{
 .conteiner_header img{
   max-width: 100%;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 /*Fonts styles*/
 .conteiner h1{
+  margin: 20px 0px 10px 0px;
   font-family: "Young Serif", serif;
   font-weight: 400;
   color: hsl(24, 5%, 18%);
@@ -61,7 +62,7 @@ li::marker{
 }
 
 .recipe{
-  background-color: hsla(332, 55%, 69%, 0.212);
+  background-color:hsl(330, 100%, 98%);
   border-radius: 10px;
   padding-right: 90px;
   margin: 30px;
