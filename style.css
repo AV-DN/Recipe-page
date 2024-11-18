@@ -121,3 +121,31 @@ li::marker{
   text-align: left;
   border-bottom: rgba(0, 0, 0, 0.308) 1px solid;
 }
+
+/* Mobile styles (375px) */
+@media (max-width: 375px) {
+  .conteiner {
+    padding: 1em;
+  }
+
+  .recipe {
+    padding: 0.5em;
+  }
+
+  .conteiner_header img{
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Desktop styles (larger than 1024px) */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  body {
+    padding: 2em;
+  }
+
+  .conteiner {
+    max-width: 800px;
+    padding: 2em;
+  }
+}
